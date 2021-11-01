@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--clr-black: hsl(0, 0%, 0%);
+	--clr-white: hsl(0, 0%, 100%);
+}
+body {
+	background-color: var(--clr-black);
+}
+#canvas1 {
+	border: 2px solid var(--clr-white);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% -50%);
+}
